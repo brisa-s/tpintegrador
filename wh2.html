@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let suma = 0;
+let numero;
+
+while (numero !== 0) {
+  numero = parseInt(prompt("Ingrese un número (ingrese 0 para finalizar):"));
+
+  if (isNaN(numero)) {
+    alert("Por favor, ingrese un número válido.");
+  } else {
+    suma += numero;
+  }
+}
+
+alert("La suma de los números ingresados es: " + suma);
+
+    </script>
+</body>
+</html>
